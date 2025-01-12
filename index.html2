@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<title>
+admission.com
+</title>
+</head>
+<body>
+   <table width="700"height="600"align="center"bgcolor="white">
+     <form>
+           <tr>
+	            <td colspan="4"align="center">
+				<img src="logo.png"><br>
+				<h3>Admission Console Application</h3>
+				</td>
+	       </tr>
+	  
+	  
+	  
+	  
+	       <tr>
+	            <td>
+	            First Name:
+	            </td>
+				
+	            <td>
+				 <input type="text"name="first name"placeholder="Type Your Name">
+				</td>
+				
+	            <td>
+				Last Name:
+				</td>
+				
+	            <td align="right">
+				<input type="text" name="Last Name" placeholder="Type yoour name ">
+				</td>
+	       </tr>
+	  
+	  
+	  
+	  
+	       <tr>
+	            <td>
+				Gender:
+				</td>
+				
+	            <td>
+				<input type="radio"name="Gender"value="male">male
+				<input type="radio"name="Gender"value="female">female
+				</td>
+				
+	            <td align="right">
+				DOB:
+				</td>
+				
+				<td align="right">
+				<input type="date"name="dob">
+				</td>
+	       </tr>
+	  
+	  
+	  
+	  
+	       <tr>
+                <td colspan="2">
+				Choose Your last qualification:
+				</td>
+				
+	            <td colspan="2">
+				<input type="radio"name="Choose Your last qualification"value="Matriculation">Matriculation
+				<input type="radio"name="Choose Your last qualification"value="Graduation">Graduation
+				<input type="radio"name="Choose Your last qualification"value="Highier">Highier
+			    </td>
+	       </tr>
+	  
+	  
+	  
+	  
+	       <tr>
+	             <td>
+				 Course Name :
+				 </td>
+				 
+	             <td colspan="3">
+				 <input type="text"name="Course Name "placeholder="Type Your Course Here">
+				 </td>
+	       </tr>
+	  
+	  
+	  
+	  
+	  
+	       <tr>
+	             <td colspan="2">
+				 Type your username for online learning<br><br>
+				 <input type="text"name="username"placeholder="username">
+				 </td>
+				 
+	             <td colspan="2">
+				 Type your password for online learning<br><br>
+				 <input type="password"Name="password"placeholder="password">
+				 </td>    
+	       </tr>
+	  
+	  
+	  
+	  
+	       <tr><br><br>
+	             <td>
+				 Upload your Pic Now:
+				 </td>
+				 
+	             <td>
+				 <input type="file"accept=".jpg">
+				 </td>
+				 
+	             <td colspan="2" align="right">
+				 	Permanent Address
+				 </td>
+	       </tr>
+	  
+	  
+	  
+	  
+	  
+	       <tr>
+	             <td colspan="4" align="right">
+				 <textarea cols="92"rows="6"></textarea><br><br>
+				 <input type="reset"value="Reset Data">
+				 <input type="submit"value="Admit Now">
+				 </td>
+	            
+	       </tr>
+		   
+		   
+		   
+	</form>  
+   </table>
+</body>
+</html>
